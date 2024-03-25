@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CloseScreen : MonoBehaviour
+public class OpenScreen : MonoBehaviour
 {
     [SerializeField] GameObject _panel;
-    
-    public void Close()
+
+    public void Open()
     {
-        _panel.SetActive(false);
+        _panel.SetActive(true);
     }
 }
